@@ -7,4 +7,104 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+}
+
+.blue-section {
+  background-color: #06365f;
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+/* main content*/
+.main-content-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  position: relative;
+  margin-top: -200px;
+}
+.text-container {
+  position: relative;
+  display: inline-block;
+}
+
+.text-container img {
+  width: 550px;
+  position: absolute;
+}
+
+.text-wrap {
+  position: relative;
+  margin: 0 auto;
+  width: 480px;
+  font-weight: 550;
+  color: rgb(68, 65, 65);
+}
+
+.text-wrap h1 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #06365f;
+  width: 70%;
+}
+
+b {
+  font-weight: 900;
+  color: black;
+}
+
+.insta-container {
+  width: 540px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* botton */
+
+.btn-container {
+  margin-top: 20px;
+}
+
+.login-btn {
+  width: 110px;
+  height: 42px;
+  color: white;
+  font-weight: 600;
+  background-image: linear-gradient(#1c5380, #06365f);
+  background-color: #06365f;
+  border: solid 1px #053055;
+  border-radius: 5px;
+  text-align: center;
+}
+.ml-30 {
+  margin-left: 30px;
+}
+
+/* footer */
+.footer {
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  width: 950px;
+}
+
+.footer ul {
+  display: inline;
+  color: #1c5380;
+}
+
+.footer li {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  display: inline-block;
+  padding: 0 10px;
+}
+.trademark-grey {
+  color: grey;
 }
